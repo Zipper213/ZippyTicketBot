@@ -22,3 +22,4 @@ Client.on('message', (message) => {
 })
 
 Client.login(process.env.BOT_TOKEN);
+require('http').createServer().listen(3000);
