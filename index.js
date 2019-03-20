@@ -16,7 +16,7 @@ Client.on('message', (message) => {
 
 	if(!msgP.startsWith(Prefix)) return;
 
-	if(msg === "test") {
+	if(msgP === "[test") {
 		channel.send("IT WORKS!");
 	}
 })
