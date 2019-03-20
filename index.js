@@ -10,7 +10,7 @@ Client.on('ready', () => {
 Client.on('message', (message) => {
 
 	let msgP = message.content
-	let msg = msg.substring(1);
+	let msg = msgP.substring(1);
 	let author = message.author;
 	let channel = message.channel;
 
